@@ -114,9 +114,6 @@ public function trigger.registerPlayerUnitEvent(player whichPlayer, playerunitev
 public function trigger.registerPlayerAllianceChange(player whichPlayer, alliancetype whichAlliance) returns event
 	return TriggerRegisterPlayerAllianceChange(this, whichPlayer, whichAlliance)
 
-public function trigger.registerPlayerSync(player whichPlayer, alliancetype whichAlliance) returns event
-	return TriggerRegisterPlayerAllianceChange(this, whichPlayer, whichAlliance)
-
 public function trigger.registerPlayerKeyPress(player whichPlayer, oskeytype key, OSKEY_META metaKey, bool onKeyDown) returns event
 	return BlzTriggerRegisterPlayerKeyEvent(this, whichPlayer, key, metaKey.toInt(), onKeyDown)
 
