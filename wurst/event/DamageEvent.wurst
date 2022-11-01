@@ -240,7 +240,6 @@ public class DamageEvent
         destroy dmg
         abort = false
 
-
     /* LISTENERS */
     /** Adds a damage event listener.
         If The order of firing is important, use addListener(priority, listener) */
